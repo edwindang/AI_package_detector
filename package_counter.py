@@ -6,7 +6,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")  # Replace with your own trained model if available
 
 # Load video
-video_path = "IMG_1781.MP4"
+video_path = "videos/IMG_1781.MP4"
 cap = cv2.VideoCapture(video_path)
 
 # Define virtual counting line (y-coordinates or x, depending on orientation)
